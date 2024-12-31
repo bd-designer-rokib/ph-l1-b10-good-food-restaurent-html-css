@@ -81,7 +81,7 @@ body {
 /* Card Section */
 
 .cardbox-section {
-  padding: 120px 0;
+  padding: 140px 0;
 }
 
 .cardbox-section .cardbox-top .cardbox-subtitle {
@@ -169,4 +169,62 @@ body {
   opacity: 0.7;
   margin-top: 24px;
   padding: 0 5px;
+}
+
+/* About Section */
+.about-section {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.about-section .about-img {
+  max-width: 960px;
+}
+
+.about-section .about-content {
+  width: 100%;
+}
+
+.about-section .about-content .about-title {
+  margin: 0 auto;
+  max-width: 805px;
+  color: #101010;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+}
+
+.about-section .about-content .about-description {
+  color: #101010;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+  margin: 24px auto 48px;
+}
+
+.about-section .about-content .about-line {
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.about-section .about-content .about-follow {
+  margin: 30px auto;
+  color: #101010;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about-section .about-content .about-social {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 32px auto 0;
 }
