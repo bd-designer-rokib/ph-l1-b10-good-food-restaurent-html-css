@@ -35,20 +35,20 @@ body {
 .hero-section .sub-title {
   color: #fff;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 .hero-section h1 {
-  width: 1000px;
+  width: 871px;
   color: #fff;
   text-align: center;
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 80px; /* 125% */
+  line-height: 60px;
   margin-top: 16px;
 }
 
@@ -71,7 +71,7 @@ body {
   background: #52c303;
   color: #fff;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -87,7 +87,7 @@ body {
 .cardbox-section .cardbox-top .cardbox-subtitle {
   color: #101010;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -95,19 +95,22 @@ body {
 }
 
 .cardbox-section .cardbox-top .cardbox-title {
-  width: 691px;
+  width: 534px;
   color: #101010;
   text-align: center;
   margin: 16px auto 48px;
-  font-size: 48px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 133.333% */
+  line-height: 48px;
 }
 
 .cardbox-section .cardbox-cards {
   margin: 0 auto;
   max-width: 1320px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .cardbox-section .cardbox-btn {
@@ -119,16 +122,10 @@ body {
   border: 0;
   color: #fff;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-}
-
-.cardbox-section .cardbox-cards {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 .cardbox-section .card .card-img {
@@ -141,7 +138,7 @@ body {
   background: rgba(82, 195, 3, 0.15);
   color: #101010;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -153,7 +150,7 @@ body {
 .cardbox-section .card .card-title {
   color: #101010;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -178,8 +175,12 @@ body {
   display: flex;
   align-items: center;
 }
-.about-section .about-img {
-  max-width: 960px;
+
+.about-section .about-img{
+}
+
+.about-section .about-img img {
+    display: block;
 }
 
 .about-section .about-content {
@@ -188,19 +189,19 @@ body {
 
 .about-section .about-content .about-title {
   margin: 0 auto;
-  max-width: 805px;
+  max-width: 647px;
   color: #101010;
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 133.333% */
+  line-height: 46px;
 }
 
 .about-section .about-content .about-description {
   color: #101010;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -216,7 +217,7 @@ body {
   margin: 30px auto;
   color: #101010;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -225,6 +226,7 @@ body {
 .about-section .about-content .about-social {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 32px;
   margin: 32px auto 0;
 }
@@ -235,8 +237,8 @@ body {
   position: relative;
 }
 
-.footer-section::before{
-  content: '';
+.footer-section::before {
+  content: "";
   background-image: url(../images/social-bg.png);
   background-size: cover;
   background-position: center;
@@ -246,24 +248,24 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.10;
+  opacity: 0.1;
 }
 
 .footer-section .footer-title {
   margin: 0 auto;
-  max-width: 805px;
+  max-width: 719px;
   color: #101010;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 133.333% */
+  line-height: 54px;
 }
 
 .footer-section .footer-description {
   color: #101010;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -281,7 +283,7 @@ body {
   margin: 30px auto;
   color: #101010;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
